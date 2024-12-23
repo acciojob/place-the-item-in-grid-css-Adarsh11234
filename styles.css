@@ -1,2 +1,30 @@
+ body {
+            background-color: #f5f5f5;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-/* Your CSS Code here. */
+        .holder {
+            display: grid;
+            grid-template-rows: repeat(2, 100px);
+            grid-template-columns: repeat(2, 100px);
+            gap: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: #e0e0e0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .item {
+            background-color: #017e99;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+        }
